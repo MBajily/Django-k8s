@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  django_k8s:
+    build:
+      context: ./django_k8s
+      dockerfile: Dockerfile
+    image: django-ks:v1
